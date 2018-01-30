@@ -36,3 +36,6 @@ causes a crash on the IP Camera which completley freeze the system, making it un
 
 ##### Exploits.
 Two exploits are provided in this repo for those vulnerabilities, just for testing purposes.
+
+##### Researcher.
+Gonzalo Garcia Leon
