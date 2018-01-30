@@ -1,7 +1,18 @@
   # Multiple vulnerabilities at Conceptronic IP Cameras with 0.61.X. web firmware.
 A CSRF and Denial of Service vulnerabilities have been found at Conceptronic IP Cameras.
 
-Tested on:
+#### Index:
+  0. Introduction
+  1. Cross-Site Request Forgery on users.cgi
+  2. Denial of Service
+  3. Exploits
+  4. Researcher
+
+#### 0. Introduction
+
+Conceptronic cameras are able to record sound and vídeo and stream it trhoug the network. Currently this kind of IP Cameras are used on domestic and proffesional environments, mostly for control and security reasons. Two vulnerabilities where found on two different software firmwares, and possibly they are present on every firmware currently on the market (not confirmed yet by the vendor). The first vulnerability affects the privacy and integrity of the sound and video and audio recorded by the camera, the second, affects de disponibility of the video and audio recorded by the camera, leading to physical security issues. An attacker could remotely take down this cameras just by knowing their IP.
+
+Tested models:
 
 | Camera Model| System firmware|Web firmware|
 | -------------|-------------| -------------|
