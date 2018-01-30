@@ -32,12 +32,15 @@ to view victims current user password in plaintext.
 
 
 
-#### 2. Unauthenticated Denial of Service on device.cgi.
+#### 2. Unauthenticated Denial of Service.
 A POST request with huge body to
 ```
 /hy-cgi/device.cgi?cmd=searchlandevice
 ```
 causes a crash on the IP Camera which completley freeze the system, making it unnaccesible.
+
+In fact, any POST request, is handled by an unknown middleware which is the responsable of the crash.
+
 
 | CVSS | Score | CVSS Details |
 | -------------|-------------| -------------|
