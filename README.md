@@ -2,6 +2,7 @@
 A CSRF and Denial of Service vulnerabilities have been found at Conceptronic IP Cameras.
 
 Tested on:
+
 | Camera Model| System firmware|Web firmware|
 | -------------|-------------| -------------|
 | CIPCAMPTIWL|00.30.01.0047P3|0.61.30.21|
