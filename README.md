@@ -32,7 +32,7 @@ to view victims current user password in plaintext.
 
 
 
-#### 2. Low-privileged authenticated Denial of Service on device.cgi.
+#### 2. Unauthenticated Denial of Service on device.cgi.
 A POST request with huge body to
 ```
 /hy-cgi/device.cgi?cmd=searchlandevice
@@ -41,7 +41,7 @@ causes a crash on the IP Camera which completley freeze the system, making it un
 
 | CVSS | Score | CVSS Details |
 | -------------|-------------| -------------|
-| 3|7.5|AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:F/RL:U/RC:C|
+| 3|8.5|AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N|
 
 #### 3. Exploits.
 Two exploits are provided in this repo for those vulnerabilities, just for testing purposes.
