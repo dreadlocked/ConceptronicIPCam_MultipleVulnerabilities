@@ -26,6 +26,8 @@ Also, in special circustances, an attacker can exploit CSRF on
 ```
 to view victims current user password on plaintext.
 
+CVSS3 Score: 7.2 (AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N/E:F/RL:U/RC:C) 
+
 ##### Low-privileged authenticated Denial of Service on device.cgi.
 A POST request with huge body to
 ```
