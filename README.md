@@ -35,6 +35,7 @@ A POST request with huge body to
 ```
 causes a crash on the IP Camera which completley freeze the system, making it unnaccesible.
 
+CVSS3 Score: 7.5 (AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H/E:F/RL:U/RC:C)
 
 ##### Exploits.
 Two exploits are provided in this repo for those vulnerabilities, just for testing purposes.
