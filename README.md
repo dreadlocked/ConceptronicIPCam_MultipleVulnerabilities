@@ -41,7 +41,7 @@ causes a crash on the IP Camera which completley freeze the system, making it un
 
 | CVSS | Score | CVSS Details |
 | -------------|-------------| -------------|
-| 3|8.5|AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N|
+| 3|8.6|AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N|
 
 #### 3. Exploits.
 Two exploits are provided in this repo for those vulnerabilities, just for testing purposes.
