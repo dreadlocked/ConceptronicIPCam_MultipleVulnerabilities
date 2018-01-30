@@ -6,10 +6,8 @@ Tested on:
 | Camera Model| System firmware|Web firmware|
 | -------------|-------------| -------------|
 | CIPCAMPTIWL V3|00.30.01.0047P3|0.61.30.21|
-
-| Camera Model| System firmware|Web firmware|
-| -------------|-------------| -------------|
 |CIPCAM1080PTIWL|00.10.01.0039P2|-|
+
 
 #### 1. Cross-Site Request Forgery on users.cgi
 Every request is vulnerable to Cross-Site Request Forgery due to lack of CSRF token or any other CSRF protection. Specially sensitive GET request are:
