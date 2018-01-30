@@ -3,9 +3,9 @@ A CSRF and Denial of Service vulnerabilities have been found at Conceptronic IP 
 
 #### Index:
   0. Introduction
-  1. Cross-Site Request Forgery on users.cgi CVE-2018-6408
-  2. Remote Unauthenticated Denial of Service CVE-2018-6407
-  3. Exploits
+  1. Cross-Site Request Forgery on users.cgi  CVE-2018-6408
+  2. Remote Unauthenticated Denial of Service CVE-2018-6407
+  3. Exploits
   4. Researcher
 
 #### 0. Introduction
