@@ -1,5 +1,5 @@
-# Multiple web vulnerabilities on Conceptronic IP Cameras with 0.61.30.X web firmware.
-A CSRF and Denial of Service vulnerabilities have been found on Conceptronic IP Cameras.
+# Multiple web vulnerabilities at Conceptronic IP Cameras with 0.61.30.X web firmware.
+A CSRF and Denial of Service vulnerabilities have been found at Conceptronic IP Cameras.
 
 Tested on:
 | Camera Model       | System firmware           | Web firmware  |
