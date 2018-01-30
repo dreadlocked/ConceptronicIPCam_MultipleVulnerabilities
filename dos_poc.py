@@ -21,7 +21,7 @@ headers = { "Host": "<YOUR_CAMERA_IP>:<PORT>",
 url = "/hy-cgi/device.cgi?cmd=searchlandevice"
 
 # POST the request
-conn = httplib.HTTPConnection(host,port=8083)
+conn = httplib.HTTPConnection(host,port=<YOUR_CAMERA_PORT>)
 conn.request("POST",url,params,headers)
 response = conn.getresponse()
 
