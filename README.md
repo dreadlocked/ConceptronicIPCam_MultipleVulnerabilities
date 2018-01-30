@@ -2,9 +2,9 @@
 A CSRF and Denial of Service vulnerabilities have been found at Conceptronic IP Cameras.
 
 Tested on:
-| Camera Model       | System firmware           | Web firmware  |
-| ------------- |:-------------:| -----:|
-| CIPCAMPTIWL      | 00.30.01.0047P3 | 0.61.30.21 |
+| Camera Model| System firmware|Web firmware|
+| -------------|-------------| -------------|
+| CIPCAMPTIWL|00.30.01.0047P3|0.61.30.21|
 
 ##### Cross-Site Request Forgery on users.cgi
 Every request is vulnerable to Cross-Site Request Forgery due to lack of a CSRF token or any other CSRF protection. Specially sensitive GET request is:
