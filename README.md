@@ -7,7 +7,7 @@ Tested on:
 | -------------|-------------| -------------|
 | CIPCAMPTIWL V3|00.30.01.0047P3|0.61.30.21|
 
-##### Cross-Site Request Forgery on users.cgi
+#### Cross-Site Request Forgery on users.cgi
 Every request is vulnerable to Cross-Site Request Forgery due to lack of CSRF token or any other CSRF protection. Specially sensitive GET request are:
 ``` 
 /hy-cgi/user.cgi?cmd=edituser&at_username=admin&at_newpassword=new_password&at_newrolename=admin&at_userid=10001
@@ -30,7 +30,9 @@ to view victims current user password in plaintext.
 | -------------|-------------| -------------|
 | 3|7.2|AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N/E:F/RL:U/RC:C|
 
-##### Low-privileged authenticated Denial of Service on device.cgi.
+
+
+#### Low-privileged authenticated Denial of Service on device.cgi.
 A POST request with huge body to
 ```
 /hy-cgi/device.cgi?cmd=searchlandevice
