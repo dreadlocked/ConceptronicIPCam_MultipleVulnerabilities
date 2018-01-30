@@ -1,17 +1,8 @@
 # Multiple vulnerabilities at Conceptronic IP Cameras with 0.61.X. web firmware.
 A CSRF and Denial of Service vulnerabilities have been found at Conceptronic IP Cameras.
 
-#### Index:
-  0. Introduction
-  
-  1. Cross-Site Request Forgery on users.cgi.
-  
-  2. Remote Unauthenticated Denial of Service.
-  
-  3. Exploits
-  
-  4. Researcher
-  
+CVE-2018-6407 - Unauthenticated remote Denial of Service vulnerability.
+CVE-2018-6408 - CSRF allows to change admin user credentials or create a new user.
 
 #### 0. Introduction
 
