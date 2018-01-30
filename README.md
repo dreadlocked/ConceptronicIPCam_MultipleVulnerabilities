@@ -8,7 +8,7 @@ Tested on:
 | CIPCAMPTIWL V3|00.30.01.0047P3|0.61.30.21|
 
 ##### Cross-Site Request Forgery on users.cgi
-Every request is vulnerable to Cross-Site Request Forgery due to lack of a CSRF token or any other CSRF protection. Specially sensitive GET request is:
+Every request is vulnerable to Cross-Site Request Forgery due to lack of CSRF token or any other CSRF protection. Specially sensitive GET request are:
 ``` 
 /hy-cgi/user.cgi?cmd=edituser&at_username=admin&at_newpassword=new_password&at_newrolename=admin&at_userid=10001
 ``` 
@@ -20,11 +20,11 @@ Which allows to change administrator IP without providing the old password. An a
 
 Allows to create a new administrator user.
 
-Also, in special circustances, an attacker can exploit CSRF on 
+Also, in special circustances, an attacker could exploit the vulnerability on 
 ```
 /hy-cgi/user.cgi?cmd=checkuserinfo
 ```
-to view victims current user password on plaintext.
+to view victims current user password in plaintext.
 
 CVSS3 Score: 7.2 (AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N/E:F/RL:U/RC:C) 
 
