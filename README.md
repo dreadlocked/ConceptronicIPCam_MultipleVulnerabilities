@@ -39,7 +39,7 @@ A POST request with huge body to
 ```
 causes a crash on the IP Camera which completley freeze the system, making it unnaccesible.
 
-In fact, any POST request, is handled by an unknown middleware which is the responsable of the crash.
+In fact, any POST request is handled by an unknown middleware which is the responsable of the crash.
 
 
 | CVSS | Score | CVSS Details |
