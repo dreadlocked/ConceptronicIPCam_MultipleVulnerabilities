@@ -37,6 +37,9 @@ Also, in special circustances, an attacker could exploit the vulnerability on
 ```
 to view victims current user password in plaintext.
 
+**Obtain credentials means that an attacker could access camera's video and audio streaming.**
+
+
 | CVSS | Score | CVSS Details |
 | -------------|-------------| -------------|
 | 3|7.2|AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N/E:F/RL:U/RC:C|
@@ -51,6 +54,8 @@ A POST request with huge body to
 causes a crash on the IP Camera which completley freeze the system, making it unnaccesible.
 
 In fact, any POST request is handled by an unknown middleware which is the crash responsible.
+
+**By crashing the camera, this immediatly stops sending/recording video and audio streaming**
 
 
 | CVSS | Score | CVSS Details |
